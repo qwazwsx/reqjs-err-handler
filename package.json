@@ -1,0 +1,30 @@
+{
+  "name": "reqjs-err-handler",
+  "version": "1.0.1",
+  "description": "⚙️ powerful HTTP error handler built for request.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwazwsx/err-handler.git"
+  },
+  "keywords": [
+    "request",
+    "http",
+    "error"
+  ],
+  "author": "qwazwsx",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/qwazwsx/err-handler/issues"
+  },
+  "homepage": "https://github.com/qwazwsx/err-handler#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
