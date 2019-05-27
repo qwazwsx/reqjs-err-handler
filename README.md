@@ -1,10 +1,10 @@
-## err-handler.js
+## reqjs-err-handler.js
 ##### ⚙️ powerful HTTP error handler built for `request.js`
 
 ### EASY TO SETUP:
 
 ```JavaScript
-// define the err-handler conditions
+// define the reqjs-err-handler conditions
 const loginHandler = new ErrorHandler({
   prefix: 'LOGIN',    // prefix to put in front of thrown errors
   
@@ -27,7 +27,7 @@ const loginHandler = new ErrorHandler({
   }
 })
 
-// make a request and call err-handler
+// make a request and call reqjs-err-handler
 request('https://api.example.com/XXX', (err, res, body) => {
   loginHandler.handle(err, res, body)
   
@@ -101,7 +101,7 @@ const loginHandler = new ErrorHandler({
 This will throw an error if the response body contains either the text *"no account found"* or *"password incorrect"*. This will also throw an error if the HTTP status code is 400. 
 
 ##### ADVANCED DEBUGGING
-err-handler has a verbose debugging mode designed to make tracking down errors in your code easy. No more `console.log()`ing!
+reqjs-err-handler has a verbose debugging mode designed to make tracking down errors in your code easy. No more `console.log()`ing!
 
 Simply set the `verbose` parameter when setting up conditions. 
 ```JavaScript
