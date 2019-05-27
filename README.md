@@ -1,6 +1,8 @@
 ## reqjs-err-handler.js
 ##### ⚙️ powerful HTTP error handler built for `request.js`
 
+### `npm i reqjs-err-handler`
+
 ### EASY TO SETUP:
 
 ```JavaScript
