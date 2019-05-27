@@ -37,7 +37,9 @@ request('https://api.example.com/XXX', (err, res, body) => {
 
 ##### ANATOMY OF THE ERROR:
 "Error: [`PREFIX`][`ERROR TYPE`]  `error message`"
+
 —`[PREFIX]` - customisable error prefix parameter set above
+
 —`[ERROR TYPE]` - the reason the error was thrown.
 * `[F_BODY_X]` - body fail condition met. X is a number representing the specific condition that triggered the error
 * `[F_STATUS_XXX]` - HTTP status fail condition met. XXX is the expected HTTP status
