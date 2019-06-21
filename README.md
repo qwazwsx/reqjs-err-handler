@@ -1,4 +1,7 @@
 ## reqjs-err-handler.js
+
+[![npm version](https://badge.fury.io/js/reqjs-err-handler.svg)](https://badge.fury.io/js/reqjs-err-handler)
+
 ##### ⚙️ powerful HTTP error handler built for `request.js`
 
 ### `npm i reqjs-err-handler`
